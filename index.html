@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Meridian Ribbon - A visual-to-sound-and-touch wearable + app system for blind and low-vision users, inspired by Traditional Chinese Medicine">
+    <meta name="description" content="Meridian Ribbon - A visual-to-touch wearable + app system for blind and low-vision users, inspired by Traditional Chinese Medicine">
     <title>Meridian Ribbon | Capstone Project 2025</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,8 +22,8 @@
             </button>
             <ul class="nav-menu" id="navMenu">
                 <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#methods" class="nav-link">Methods</a></li>
                 <li><a href="#why-tcm" class="nav-link">Why TCM</a></li>
+                <li><a href="#methods" class="nav-link">Methods</a></li>
                 <li><a href="#precedents" class="nav-link">Precedents</a></li>
                 <li><a href="#prototype" class="nav-link">Prototype</a></li>
                 <li><a href="#project-storyboard" class="nav-link">Storyboard</a></li>
@@ -43,10 +43,10 @@
                     <p class="hero-name">Xinyu Jiao</p>
                     <p class="hero-course">Computational Design Practices: Colloquium 2 Fall 2025</p>
                 </div>
-                <p class="hero-subtitle">A visual-to-sound-and-touch wearable + app system for blind and low-vision users, inspired by Traditional Chinese Medicine.</p>
+                <p class="hero-subtitle">A visual-to-touch wearable + app system for blind and low-vision users, inspired by Traditional Chinese Medicine.</p>
                 <div class="hero-hypothesis">
                     <h2 class="hypothesis-title">Research Question</h2>
-                    <p class="hypothesis-text">How can visual information be translated into sound and meridian-based vibration patterns on the wrist to help blind and low-vision people sense space and atmosphere through their body?</p>
+                    <p class="hypothesis-text">How can visual information be translated into meridian-based vibration patterns (with minimal voice cues) on the wrist to help blind and low-vision people sense space and atmosphere through their body?</p>
                 </div>
             </div>
         </div>
@@ -79,6 +79,59 @@
             <h2 class="section-title">Project Description</h2>
             <div class="content-box">
                 <p>Meridian Ribbon is a wearable + app system for blind and low-vision users that turns visual information into sound and vibration on the wrist. The phone app uses the camera to read the environment and interpret simple states—like street vs. corridor, quiet vs. crowded, calm vs. tense. These states are translated into short sound cues and meridian-inspired vibration patterns, arranged along the wrist as a continuous tactile "ribbon." Rather than looking at a screen, users can orient themselves, sense atmosphere, and reflect on their day through hearing and touch. The project treats Traditional Chinese Medicine meridians not as medicine, but as a body-centered interface language for organizing haptic feedback.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why TCM? The Logic of Layout -->
+    <section id="why-tcm" class="section">
+        <div class="container">
+            <h2 class="section-title">Why TCM? The Logic of Layout</h2>
+            
+            <!-- TCM Content Layout: Image + Reasons -->
+            <div class="tcm-content-layout">
+                <!-- TCM Meridian Diagram -->
+                <div class="tcm-diagram-wrapper">
+                    <img src="images/1.jpg" alt="Human body meridians diagram" class="tcm-diagram-image">
+                </div>
+                
+                <!-- Three Scientific Reasons Grid -->
+                <div class="tcm-reasons-grid">
+                <div class="tcm-reason-card">
+                    <h3>Anatomical Sensitivity</h3>
+                    <p>Acupoints like Neiguan (PC6) sit on high nerve density areas. Mapping vibrations here ensures clearer feedback and higher tactile acuity.</p>
+                </div>
+                
+                <div class="tcm-reason-card">
+                    <h3>Cognitive Linear Flow</h3>
+                    <p>The brain tracks continuous lines easier than random dots. Meridians act as a natural "highway" for information, reducing cognitive load.</p>
+                </div>
+                
+                <div class="tcm-reason-card">
+                    <h3>Somatic Calm</h3>
+                    <p>Stimulating the Pericardium Meridian aligns with calming the heart. It turns the device into an emotional regulator, not just a navigation tool.</p>
+                </div>
+                </div>
+            </div>
+
+            <!-- Interview Insight Box -->
+            <div class="interview-insight-box">
+                <h3>Insights from Interviews</h3>
+                
+                <div class="insight-item">
+                    <blockquote class="user-quote">"I can't form a map of the room — everything feels scattered."</blockquote>
+                    <p class="insight-explanation">Blind users shared that their biggest challenge is not the lack of information, but the lack of structure. They need spatial feedback that is <strong>continuous, directional, and quiet</strong>, not fragmented descriptions.</p>
+                </div>
+                
+                <div class="insight-item">
+                    <blockquote class="user-quote">"Meridians are the body's natural pathways for sensing direction."</blockquote>
+                    <p class="insight-explanation">A TCM practitioner explained that the wrist and forearm meridians behave like an <strong>embedded spatial coordinate system</strong>. Sequential tactile stimulation along these lines creates a clear sense of flow and direction, even without vision.</p>
+                </div>
+                
+                <div class="core-insight">
+                    <h4>Core Insight</h4>
+                    <p>Blind users need <strong>structured, directional, silent spatial cues</strong> — and meridian pathways offer a natural framework for delivering them.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -148,7 +201,7 @@
                     <h3 class="method-card-title">PROTOTYPING</h3>
                     <p class="method-card-subtitle">Material</p>
                     <div class="method-card-content">
-                        <p>I test materials like <strong>Silicone</strong> (soft) and <strong>Plastic</strong> (hard). Materials act like <strong>filters</strong>—they change how the vibration travels on skin.</p>
+                        <p>I will test materials like <strong>Silicone</strong> (soft) and <strong>Plastic</strong> (hard). Materials act like <strong>filters</strong>—they change how the vibration travels on skin.</p>
                     </div>
                 </div>
                 
@@ -175,59 +228,6 @@
                     <div class="method-card-content">
                         <p>The final result is a <strong>Tactile Language</strong>: Smooth waves for safety, sharp clicks for objects.</p>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Why TCM? The Logic of Layout -->
-    <section id="why-tcm" class="section">
-        <div class="container">
-            <h2 class="section-title">Why TCM? The Logic of Layout</h2>
-            
-            <!-- TCM Content Layout: Image + Reasons -->
-            <div class="tcm-content-layout">
-                <!-- TCM Meridian Diagram -->
-                <div class="tcm-diagram-wrapper">
-                    <img src="images/1.jpg" alt="Human body meridians diagram" class="tcm-diagram-image">
-                </div>
-                
-                <!-- Three Scientific Reasons Grid -->
-                <div class="tcm-reasons-grid">
-                <div class="tcm-reason-card">
-                    <h3>Anatomical Sensitivity</h3>
-                    <p>Acupoints like Neiguan (PC6) sit on high nerve density areas. Mapping vibrations here ensures clearer feedback and higher tactile acuity.</p>
-                </div>
-                
-                <div class="tcm-reason-card">
-                    <h3>Cognitive Linear Flow</h3>
-                    <p>The brain tracks continuous lines easier than random dots. Meridians act as a natural "highway" for information, reducing cognitive load.</p>
-                </div>
-                
-                <div class="tcm-reason-card">
-                    <h3>Somatic Calm</h3>
-                    <p>Stimulating the Pericardium Meridian aligns with calming the heart. It turns the device into an emotional regulator, not just a navigation tool.</p>
-                </div>
-                </div>
-            </div>
-
-            <!-- Interview Insight Box -->
-            <div class="interview-insight-box">
-                <h3>Insights from Interviews</h3>
-                
-                <div class="insight-item">
-                    <blockquote class="user-quote">"I can't form a map of the room — everything feels scattered."</blockquote>
-                    <p class="insight-explanation">Blind users shared that their biggest challenge is not the lack of information, but the lack of structure. They need spatial feedback that is <strong>continuous, directional, and quiet</strong>, not fragmented descriptions.</p>
-                </div>
-                
-                <div class="insight-item">
-                    <blockquote class="user-quote">"Meridians are the body's natural pathways for sensing direction."</blockquote>
-                    <p class="insight-explanation">A TCM practitioner explained that the wrist and forearm meridians behave like an <strong>embedded spatial coordinate system</strong>. Sequential tactile stimulation along these lines creates a clear sense of flow and direction, even without vision.</p>
-                </div>
-                
-                <div class="core-insight">
-                    <h4>Core Insight</h4>
-                    <p>Blind users need <strong>structured, directional, silent spatial cues</strong> — and meridian pathways offer a natural framework for delivering them.</p>
                 </div>
             </div>
         </div>
